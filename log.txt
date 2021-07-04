@@ -1,0 +1,10 @@
+2021-07-03 22:19:52.731 +00:00 [INF] Running create-cms-database command.
+2021-07-03 22:19:54.336 +00:00 [ERR] The database name alloy_mvc_netcore already exists on the server, please choose another name.
+2021-07-03 22:33:45.067 +00:00 [INF] Running create-cms-database command.
+2021-07-03 22:33:46.249 +00:00 [INF] create-cms-database has completed.
+2021-07-03 22:37:32.013 +00:00 [INF] Running create-cms-database command.
+2021-07-03 22:37:34.292 +00:00 [INF] create-cms-database has completed.
+2021-07-04 17:37:49.115 +00:00 [INF] Running create-cms-database command.
+2021-07-04 17:37:50.179 +00:00 [INF] create-cms-database has completed.
+2021-07-04 18:39:53.604 +00:00 [INF] Running create-cms-database command.
+2021-07-04 18:40:08.372 +00:00 [INF] create-cms-database has completed.

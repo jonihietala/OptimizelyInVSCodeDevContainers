@@ -1,0 +1,21 @@
+version: '3'
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Pa55w0rd2021"
+    ports:
+      - "1433:1433"
+  alloy:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    command: sleep infinity
+    user: root
+    volumes:
+      - ..:/workspace
+    depends_on:
+        - ms-sql-server
+    ports: 
+      - "8090:80"
